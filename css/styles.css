@@ -1,0 +1,35 @@
+/* переменные*/
+:root{ 
+
+}
+/* класс для отключения точек в ul-списке */
+.list{
+    list-style: none;
+}
+/* основные параметры для страницы */
+body{
+    background-color: #fff;
+    font-family: Roboto, sans-serif;
+    color: #757575;;
+}
+
+.logo{
+    font-family: Raleway, sans-serif;
+    color: #292929;
+    text-decoration: none
+}
+
+.logo-web{
+    color: #2196F3;
+
+}
+
+
+.site-nav-list{
+color: #212121;   
+font-weight: 500;
+font-size: 14px;
+}
+.site-nav-list:hover {
+color: rgba(33, 150, 243, 1);
+ }
