@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>WebStudio</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,16 +14,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>WebStudio</title>
   </head>
   <body>
     <header>
       <nav>
         <!-- logo_header -->
-        <a class="logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
+        <a class="logo" href="./index.html">Web<span class="logo-web">Studio</span></a>
         <!-- header_menu -->
         <ul class="site-nav list">
-          <li><a class="link" href="./index.html">Студия</a></li>
+          <li>
+            <a class="link" href="./index.html"><span class="current">Студия</span></a>
+          </li>
           <li><a class="link" href="./portfolio.html">Портфолио</a></li>
           <li><a class="link" href="">Контакты</a></li>
         </ul>
@@ -37,35 +40,35 @@
       </ul>
     </header>
     <main>
-      <section>
+      <section class="bgcolor-section">
         <!-- section_1 -->
         <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСУ</h1>
         <button class="button-hero" type="button">Заказать услугу</button>
       </section>
       <section>
         <!-- section_2 -->
-        <h2>ПРЕИМУЩЕСТВА</h2>
+        <h2 class="visually-hidden">ПРЕИМУЩЕСТВА</h2>
         <ul class="list">
           <li>
-            <h3 class="title-section2">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+            <h3 class="title-discription">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
             <p class="discription">
               Идейные соображения, а также начало повседневной работы по формированию позиции.
             </p>
           </li>
           <li>
-            <h3 class="title-section2">ПУНКТУАЛЬНОСТЬ</h3>
+            <h3 class="title-discription">ПУНКТУАЛЬНОСТЬ</h3>
             <p class="discription">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
           <li>
-            <h3 class="title-section2">ПЛАНИРОВАНИЕ</h3>
+            <h3 class="title-discription">ПЛАНИРОВАНИЕ</h3>
             <p class="discription">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
           <li>
-            <h3 class="title-section2">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+            <h3 class="title-discription">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
             <p class="discription">
               Значимость этих проблем настолько очевидна, что реализация плановых заданий.
             </p>
@@ -74,49 +77,49 @@
       </section>
       <section>
         <!-- section_3 -->
-        <h2 class="title-h2">Чем мы занимаемся</h2>
+        <h2 class="title-our-work">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
             <img src="./images/pictures1page/img1.jpg" alt="картинка-ссылка_1" width="370" />
           </li>
           <li>
-            <img src="/images/pictures1page/img2.jpg" alt="картинка-ссылка_2" width="370" />
+            <img src="./images/pictures1page/img2.jpg" alt="картинка-ссылка_2" width="370" />
           </li>
           <li>
-            <img src="/images/pictures1page/img3.jpg" alt="картинка-ссылка_3" width="370" />
+            <img src="./images/pictures1page/img3.jpg" alt="картинка-ссылка_3" width="370" />
           </li>
         </ul>
       </section>
       <section>
         <!-- section_4 -->
-        <h2 class="title-h2">Наша команда</h2>
+        <h2 class="title-our-work">Наша команда</h2>
         <ul class="list">
           <li>
             <img src="./images/staf/staf1.jpg" alt="ДИЗАЙНЕР" width="270" />
-            <h3 class="staf-list">Игорь Демьяненко</h3>
-            <p class="staf-work">Product Designer</p>
+            <h3 class="team-list">Игорь Демьяненко</h3>
+            <p class="team-position">Product Designer</p>
           </li>
           <li>
             <img src="./images/staf/staf2.jpg" alt="ФРОНТЕНД РАЗРАБОТЧИК" width="270" />
-            <h3 class="staf-list">Ольга Репина</h3>
-            <p class="staf-work">Frontend Developer</p>
+            <h3 class="team-list">Ольга Репина</h3>
+            <p class="team-position">Frontend Developer</p>
           </li>
           <li>
             <img src="./images/staf/staf3.jpg" alt="МАРКЕТИНГ" width="270" />
-            <h3 class="staf-list">Николай Тарасов</h3>
-            <p class="staf-work">Frontend Developer</p>
+            <h3 class="team-list">Николай Тарасов</h3>
+            <p class="team-position">Frontend Developer</p>
           </li>
           <li>
             <img src="./images/staf/staf4.jpg" alt="ЮИ ДИЗАЙНЕР" width="270" />
-            <h3 class="staf-list">Михаил Ермаков</h3>
-            <p class="staf-work">Frontend Developer</p>
+            <h3 class="team-list">Михаил Ермаков</h3>
+            <p class="team-position">Frontend Developer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="bgcolor-section">
       <!-- logo_footer -->
-      <a class="logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
+      <a class="logo" href="./index.html">Web<span class="logo-web-footer">Studio</span></a>
       <address>
         <ul class="list">
           <li>
